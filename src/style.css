@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700,900");
+@import url('https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700,900');
 
 html,
 body {
-  font-family: "Catamaran", sans-serif;
+  font-family: 'Catamaran', sans-serif;
   font-size: 16px;
   min-height: 100vh;
   color: #fff;
@@ -76,7 +76,7 @@ a.fb-message-blue:focus {
 }
 
 .fb-message-blue i {
-  background-image: url("https://i.imgur.com/hjwozo7.png");
+  background-image: url('https://i.imgur.com/hjwozo7.png');
   background-repeat: no-repeat;
   background-size: 17px;
   background-position: 7px 9px;
