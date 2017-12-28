@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700,900');
+
 html, body {
-	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
-	font-weight: 400;
-	min-height: 100vh;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    color: #fff;
 }
 
 body {
@@ -9,6 +12,25 @@ body {
         linear-gradient(-45deg, #512DA8 100%, transparent 33%);
 }
 
-h1 {
-	text-align: center;
+.container {
+    padding-top: 3rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 45px;
+}
+
+.text-orange{
+    color: #ffb300 !important;
 }
