@@ -14,11 +14,14 @@ body {
 }
 
 .container {
+  margin-top: 0;
   padding-top: 3rem;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: row;
 }
 
 .title {
@@ -85,4 +88,54 @@ a.fb-message-blue:focus {
   width: 17px;
   padding: 10px 7px;
   float: left;
+}
+
+.left-pane {
+  flex: 1;
+}
+
+.right-pane {
+  display: none;
+}
+
+.phone-section {
+  display: flex;
+  justify-content: center;
+}
+
+.phone-screenshot {
+  height: 450px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    max-width: 100%;
+    padding-top: 6rem;
+    margin-top: 3rem;
+  }
+  .right-pane {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+    max-width: 100%;
+    padding-top: 6rem;
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+    max-width: 100%;
+    padding-top: 6rem;
+    margin-top: 3rem;
+  }
 }
