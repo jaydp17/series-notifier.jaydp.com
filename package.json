@@ -9,7 +9,9 @@
     "serve": "preact build && preact serve",
     "dev": "preact watch",
     "lint": "eslint src",
-    "prettier:all": "prettier --write src/**/*.{js,css} *.{js,css}"
+    "prettier:all": "prettier --write src/**/*.{js,css} *.{js,css}",
+    "predeploy": "yarn build",
+    "deploy": "firebase deploy"
   },
   "eslintConfig": {
     "extends": [
@@ -25,6 +27,7 @@
     "eslint": "^4.5.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-synacor": "^1.1.0",
+    "firebase-tools": "^3.16.0",
     "if-env": "^1.0.0",
     "preact-cli": "^2.0.0",
     "prettier": "^1.9.2"
