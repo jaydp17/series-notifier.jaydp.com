@@ -9,8 +9,8 @@ body {
 }
 
 body {
-  background: linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-    linear-gradient(-45deg, #512da8 100%, transparent 33%);
+  background: linear-gradient(-45deg, #81cf84 33%, transparent 0%),
+    linear-gradient(-45deg, #1c1f2d 100%, transparent 33%);
 }
 
 .container {
@@ -36,7 +36,7 @@ body {
 }
 
 .text-orange {
-  color: #ffb300 !important;
+  color: #81cf84 !important;
 }
 
 /*---------------------------
@@ -97,7 +97,7 @@ a.fb-message-blue img {
 }
 
 .phone-screenshot {
-  height: 450px;
+  height: 80vh;
   width: auto;
 }
 
