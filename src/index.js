@@ -1,5 +1,5 @@
 import './style';
-import { Component } from 'preact';
+import { h } from 'preact';
 import FacebookButton from './FacebookButton';
 
 export default () => (

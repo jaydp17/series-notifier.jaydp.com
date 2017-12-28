@@ -12,13 +12,18 @@
     "prettier:all": "prettier --write src/**/*.{js,css} *.{js,css}"
   },
   "eslintConfig": {
-    "extends": "eslint-config-synacor"
+    "extends": [
+      "eslint-config-synacor",
+      "prettier",
+      "prettier/react"
+    ]
   },
   "eslintIgnore": [
     "build/*"
   ],
   "devDependencies": {
     "eslint": "^4.5.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-config-synacor": "^1.1.0",
     "if-env": "^1.0.0",
     "preact-cli": "^2.0.0",
