@@ -1,6 +1,6 @@
 # Series Notifier's Site
 
-This is the static site that shows up when you access [series-notifier.jaydop.com](https://series-notifier.jaydp.com)
+This is the static site that shows up when you access [series-notifier.jaydp.com](https://series-notifier.jaydp.com)
 
 ## 🤔 What's Series Notifier?
 
