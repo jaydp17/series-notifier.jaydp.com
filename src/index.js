@@ -2,6 +2,7 @@ import './style';
 import { h } from 'preact';
 import FacebookButton from './FacebookButton';
 import PhoneImage from './PhoneImage';
+import GithubCorner from './GithubCorner';
 
 export default () => (
   <div class="container">
@@ -15,5 +16,6 @@ export default () => (
     <div class="right-pane">
       <PhoneImage />
     </div>
+    <GithubCorner />
   </div>
 );
