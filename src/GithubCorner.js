@@ -6,6 +6,8 @@ export default () => (
       href="https://github.com/jaydp17/series-notifier.jaydp.com"
       class="github-corner"
       aria-label="View source on Github"
+      target="_blank"
+      rel="noopener noreferrer"
     >
       <svg
         width="120"
