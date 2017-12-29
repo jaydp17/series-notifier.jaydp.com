@@ -9,7 +9,7 @@
     "serve": "preact build && preact serve",
     "dev": "preact watch",
     "lint": "eslint src",
-    "prettier:all": "prettier --write src/**/*.{js,css} *.{js,css}",
+    "prettier:all": "prettier --write src/**/*.{js,json,css} *.{js,json,css}",
     "predeploy": "yarn build",
     "deploy": "firebase deploy"
   },
