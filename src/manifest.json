@@ -1,6 +1,6 @@
 {
-  "name": "series-notifier",
-  "short_name": "series-notifier",
+  "name": "Series Notifier",
+  "short_name": "Series Notifier",
   "start_url": "/",
   "display": "browser",
   "orientation": "portrait",
