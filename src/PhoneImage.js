@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import phoneScreenshot from '../assets/rough-screenshot.png';
+import phoneScreenshot from '../assets/rough-screenshot-white.png';
 
 export default () => (
   <div class="phone-section">
