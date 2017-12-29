@@ -1,3 +1,5 @@
+<img src="/assets/icon.png" alt="Site Logo" height="80" title="Site Logo" align="right" />
+
 # Series Notifier's Site
 
 This is the static site that shows up when you access [series-notifier.jaydp.com](https://series-notifier.jaydp.com)
