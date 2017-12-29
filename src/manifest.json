@@ -1,0 +1,16 @@
+{
+  "name": "series-notifier",
+  "short_name": "series-notifier",
+  "start_url": "/",
+  "display": "browser",
+  "orientation": "portrait",
+  "background_color": "#1c1f2d",
+  "theme_color": "#1c1f2d",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
