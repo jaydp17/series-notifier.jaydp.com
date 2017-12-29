@@ -14,7 +14,7 @@ It's a Facebook Messenger bot 🤖 that notifies you when a your favorite TV Ser
 
 ## ❤️ Credits
 
-* [Firebase Hosting](https://firebase.google.com/docs/hosting)
+* [Firebase Hosting](https://firebase.google.com/products/hosting)
 * [Preact](https://preactjs.com)
 * [Favicon.io](https://favicon.io)
 * [Github Corners](https://github.com/tholman/github-corners)
